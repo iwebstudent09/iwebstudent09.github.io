@@ -120,7 +120,7 @@ grid-column-gap: 1em;
 }
 
 @media (max-width:767px) {
-    lists{
+    .lists{
         grid-template-columns: 1fr 1fr;
     }
 }
