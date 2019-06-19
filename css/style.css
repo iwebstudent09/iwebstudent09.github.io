@@ -7,7 +7,7 @@ body{
     
     margin: 0;
     padding: 0;
-    font-family: 'Alfa-Slab';
+    font-family: sans-serif;
 }
 
 a {
@@ -123,4 +123,11 @@ grid-column-gap: 1em;
     .lists{
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/* SUB PAGES */
+
+.page-sub .hero {
+    background: #888;
+    min-height: 30vh;
 }
