@@ -1,18 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+
 /* GLOBAL */
 
 * { box-sizing: border-box}
-
 
 body{
     
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Bevan';
 }
 
 a {
-    text-decoration: none;
-    color: orange;
+    color: rgba(182, 146, 81, 0.993);
 }
 
 h1 {
@@ -24,14 +24,15 @@ margin: 0;
 /* HEADER */
 
 header {
-    background: black;
-    color: white;
-    padding: 1em 2em;
+    background: grey;
+    color: grey;
+    padding: 2em 2em;
     
 }
 
 header a {
-    color: white
+    text-decoration: none;
+    color: rgb(209, 161, 71);
 }
 
 header {
@@ -69,9 +70,11 @@ footer {
     border-top: 1px solid #ddd;
     max-width: 1000px;
     margin: 0 auto;
+    text-decoration: none;
 }
 footer nav ul{
     justify-content: center;
+    text-decoration: none;
 }
 
 
@@ -95,7 +98,7 @@ section {
     text-align: center;
     background: orange;
     min-height: 50vh;
-    color: white;
+    color: grey;
 }
 
 .hero h2 {
@@ -107,6 +110,23 @@ section {
 .hero p {
     max-width: 600px;
     margin: 1em auto;
+}
+
+.hero h2 {
+    color: rgb(165, 112, 77);
+}
+.hero p {
+    color: #000;
+    text-shadow: 0px 0px 2px #eef;
+}
+
+.page-sub .hero h2 {
+    font-family: "Special Elite";
+    color: #888;
+}
+.page-sub .hero p {
+    font-family: "Special Elite";
+    color: #000;
 }
 
 /* LISTS */
@@ -128,6 +148,33 @@ grid-column-gap: 1em;
 /* SUB PAGES */
 
 .page-sub .hero {
-    background: #888;
+    background: orange;
     min-height: 30vh;
+}
+.page-home .hero {
+    background-image: url('https://picsum.photos/id/1055/1600/800');
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-blog .blog-entry p {
+    font-family: "Special Elite";
+}
+
+/* BLOG Archives */
+
+.blog-archives {
+    max-width:600px;
+    margin: 0 auto;
+}
+
+.blog-entry  {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }
