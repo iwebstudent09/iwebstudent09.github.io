@@ -8,7 +8,7 @@ body{
     
     margin: 0;
     padding: 0;
-    font-family: 'Bevan';
+    font-family: 'Alfa Slab One';
 }
 
 a {
@@ -103,19 +103,15 @@ section {
 
 .hero h2 {
     font-size: 6em;
+    font-weight: 400;
     text-transform: uppercase;
+    color: rgb(165, 112, 77);
     margin: 0 auto
 }
 
 .hero p {
     max-width: 600px;
     margin: 1em auto;
-}
-
-.hero h2 {
-    color: rgb(165, 112, 77);
-}
-.hero p {
     color: #000;
     text-shadow: 0px 0px 2px #eef;
 }
