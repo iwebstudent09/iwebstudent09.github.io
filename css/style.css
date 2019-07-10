@@ -183,3 +183,13 @@ grid-column-gap: 1em;
     margin: 0 auto;
     text-align: center;
 }
+
+/* CUSTOM UI DESIGN */
+
+.ui-designs{
+    text-align: center;
+}
+
+.ui-designs img {
+    max-width: 200px
+}
